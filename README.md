@@ -1,4 +1,4 @@
-# The-Paper-Curse
+# The Paper Curse
 
 General Information
 --------------------
@@ -6,8 +6,7 @@ General Information
 **Version:** 0.1\
 **Date Released:** 26 FEB 2020\
 **Platform:** Windows 8 & 10\
-**Developer:** Aleksandar Kostic\
-**Publisher:** Aleksandar Kostic
+**Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko\
 
 Prerequisites
 --------------------
@@ -15,7 +14,7 @@ Prerequisites
 **Operating System:** Windows 8 (Windows 10 is recommended)\
 **Processor:** Dual Core, 2.4 GHz\
 **Memory:** 2 GB RAM\
-**Storage:** 1 GB available space
+**Storage:** 500 MB available space
 
 Synopsis
 --------------------
@@ -34,7 +33,7 @@ Game Information
 
 **Left:** A or Left Arrow key\
 **Right:** D or Right Arrow key\
-**Jump:** Space (hold space to jump higher)
+**Jump:** Space (hold to jump higher)
 
 Avoid spikes, water, saws, and spiked blocks or you will be reset.\
 Complete the level by reaching the flower.
@@ -51,11 +50,3 @@ Bug Reports
 --------------------
 
 If you encounter any bugs during your gameplay, please submit a bug report to akostic2@uwo.ca
-
-Acknowledgements
---------------------
-
-**Visuals:** Bayat Games\
-**Audio:** Daniel Gooding\
-**Special Thanks:** Brackeys\
-**Special Thanks:** Blackthornprod
