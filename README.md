@@ -6,7 +6,8 @@ General Information
 **Version:** 0.1\
 **Date Released:** 26 FEB 2020\
 **Platform:** Windows 8 & 10\
-**Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko\
+**Project Lead:** Aleksandar Kostic
+**Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko
 
 Prerequisites
 --------------------
