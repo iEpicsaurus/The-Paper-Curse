@@ -25,8 +25,8 @@ The Paper Curse is a challenging two-dimensional platformer where you, Isaac, a 
 Download Information
 --------------------
 
-1. Download the installer "The Paper Curse Setup (x86)"\
-2. Follow on screen prompts by installer to install the game.\
+1. Download the installer "The Paper Curse Setup (x86)"
+2. Follow on screen prompts by installer to install the game.
 3. Double click the game executable to run the game & enjoy!
 
 Game Information
@@ -42,8 +42,8 @@ Complete the level by reaching the flower.
 Current Game Features
 --------------------
 
-- Interactive Main Menu and Level Complete scenes\
-- Story elements revealed in one of first scenes\
+- Interactive Main Menu and Level Complete scenes
+- Story elements revealed in one of first scenes
 - First level design completed: character and enemy movement functional, collision triggers functional, respawn functional\
 - Audio throughout the game
 
