@@ -9,7 +9,6 @@ Platform: Windows 8 & 10\
 Developer: Aleksandar Kostic\
 Publisher: Aleksandar Kostic\
 
---------------------
 Prerequisites
 --------------------
 
@@ -18,13 +17,11 @@ Processor: Dual Core, 2.4 GHz\
 Memory: 2 GB RAM\
 Storage: 1 GB available space\
 
---------------------
 Synopsis
 --------------------
 
 The Paper Curse is a challenging two-dimensional platformer where you, Isaac, a paper man and the protagonist of this game, struggle in search of a way to break the curse placed on you. You want to become human and live a normal life. Your journey will not be an easy one… a single mistake could set you back.
 
---------------------
 Download Information
 --------------------
 
@@ -32,7 +29,6 @@ Download Information
 2. Follow on screen prompts by installer to install the game.\
 3. Double click the game executable to run the game & enjoy!\
 
---------------------
 Game Information
 --------------------
 
@@ -43,7 +39,6 @@ Jump: Space (hold space to jump higher)\
 Avoid spikes, water, saws, and spiked blocks or you will be reset.\
 Complete the level by reaching the flower.\
 
---------------------
 Current Game Features
 --------------------
 
@@ -52,13 +47,11 @@ Current Game Features
 - First level design completed: character and enemy movement functional, collision triggers functional, respawn functional\
 - Audio throughout the game\
 
---------------------
 Bug Reports
 --------------------
 
 If you encounter any bugs during your gameplay, please submit a bug report to akostic2@uwo.ca\
 
---------------------
 Acknowledgements
 --------------------
 
