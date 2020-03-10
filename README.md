@@ -3,19 +3,19 @@
 General Information
 --------------------
 
-Version: 0.1\
-Date Released: 26 FEB 2020\
-Platform: Windows 8 & 10\
-Developer: Aleksandar Kostic\
-Publisher: Aleksandar Kostic
+**Version:** 0.1\
+**Date Released:** 26 FEB 2020\
+**Platform:** Windows 8 & 10\
+**Developer:** Aleksandar Kostic\
+**Publisher:** Aleksandar Kostic
 
 Prerequisites
 --------------------
 
-Operating System: Windows 8 (Windows 10 is recommended)\
-Processor: Dual Core, 2.4 GHz\
-Memory: 2 GB RAM\
-Storage: 1 GB available space
+**Operating System:** Windows 8 (Windows 10 is recommended)\
+**Processor:** Dual Core, 2.4 GHz\
+**Memory:** 2 GB RAM\
+**Storage:** 1 GB available space
 
 Synopsis
 --------------------
@@ -32,9 +32,9 @@ Download Information
 Game Information
 --------------------
 
-Left: A or Left Arrow key\
-Right: D or Right Arrow key\
-Jump: Space (hold space to jump higher)
+**Left:** A or Left Arrow key\
+**Right:** D or Right Arrow key\
+**Jump:** Space (hold space to jump higher)
 
 Avoid spikes, water, saws, and spiked blocks or you will be reset.\
 Complete the level by reaching the flower.
@@ -44,7 +44,7 @@ Current Game Features
 
 - Interactive Main Menu and Level Complete scenes
 - Story elements revealed in one of first scenes
-- First level design completed: character and enemy movement functional, collision triggers functional, respawn functional\
+- First level design completed: character and enemy movement functional, collision triggers functional, respawn functional
 - Audio throughout the game
 
 Bug Reports
@@ -55,7 +55,7 @@ If you encounter any bugs during your gameplay, please submit a bug report to ak
 Acknowledgements
 --------------------
 
-Visuals: Bayat Games\
-Audio: Daniel Gooding\
-Special Thanks: Brackeys\
-Special Thanks: Blackthornprod
+**Visuals:** Bayat Games\
+**Audio:** Daniel Gooding\
+**Special Thanks:** Brackeys\
+**Special Thanks:** Blackthornprod
