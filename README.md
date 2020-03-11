@@ -9,7 +9,7 @@ General Information
 **Project Lead:** Aleksandar Kostic\
 **Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko
 
-You can track our progress on the development on The Paper Curse on our public Trello:
+You can track our progress on the development on The Paper Curse on our public Trello:\
 https://trello.com/b/gFzRY4iV/the-paper-curse
 
 Prerequisites
