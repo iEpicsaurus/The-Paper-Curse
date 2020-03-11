@@ -1,4 +1,4 @@
-﻿# The Paper Curse
+# The Paper Curse
 
 General Information
 --------------------
@@ -7,7 +7,9 @@ General Information
 **Date Released:** 26 FEB 2020\
 **Platform:** Windows 8 & 10\
 **Project Lead:** Aleksandar Kostic\
-**Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko
+**Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko\
+
+You can track our progress on the development on The Paper Curse on our public Trello: https://trello.com/b/gFzRY4iV/the-paper-curse
 
 Prerequisites
 --------------------
