@@ -1,6 +1,6 @@
 ﻿# The Paper Curse
 
-General Information.
+General Information
 --------------------
 
 **Version:** 0.1\
