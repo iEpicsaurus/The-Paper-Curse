@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CreditButtons : MonoBehaviour {
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
     // Upon pressing Return to Main Menu, the first scene is loaded (main menu)
 	public void ReturnToMain() {
 
