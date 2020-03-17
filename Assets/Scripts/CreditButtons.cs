@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CreditButtons : MonoBehaviour {
-    
+
     // Upon pressing Return to Main Menu, the first scene is loaded (main menu)
 	public void ReturnToMain() {
 
