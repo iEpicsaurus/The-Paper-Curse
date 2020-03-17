@@ -280,11 +280,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 1599218128}
-=======
-      - m_Target: {fileID: 628793578}
->>>>>>> Stashed changes
+      - m_Target: {fileID: 1516100020}
         m_MethodName: ReturnToMain
         m_Mode: 1
         m_Arguments:
@@ -413,11 +409,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 1599218128}
-=======
-      - m_Target: {fileID: 628793578}
->>>>>>> Stashed changes
+      - m_Target: {fileID: 1516100020}
         m_MethodName: PlayMedium
         m_Mode: 1
         m_Arguments:
@@ -651,13 +643,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 1599218128}
-        m_MethodName: PlayBeginner
-=======
-      - m_Target: {fileID: 628793578}
+      - m_Target: {fileID: 1516100020}
         m_MethodName: PlayEasy
->>>>>>> Stashed changes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -857,11 +844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 0, y: 207.5}
-=======
-  m_AnchoredPosition: {x: 4.5, y: 207.5}
->>>>>>> Stashed changes
+  m_AnchoredPosition: {x: 0.0040283, y: 252}
   m_SizeDelta: {x: 9, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805482426
@@ -979,11 +962,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
-      - m_Target: {fileID: 1599218128}
-=======
-      - m_Target: {fileID: 628793578}
->>>>>>> Stashed changes
+      - m_Target: {fileID: 1516100020}
         m_MethodName: PlayHard
         m_Mode: 1
         m_Arguments:
@@ -1333,7 +1312,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1599218127
+--- !u!1 &1516100019
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1341,34 +1320,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1599218129}
-  - component: {fileID: 1599218128}
+  - component: {fileID: 1516100021}
+  - component: {fileID: 1516100020}
   m_Layer: 0
-  m_Name: ButtonManager
+  m_Name: ButtonManger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1599218128
+--- !u!114 &1516100020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599218127}
+  m_GameObject: {fileID: 1516100019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69431ae91b0629946957dd48b7928cfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 537d2ab351ef5744f9999653f1ae32c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1599218129
+--- !u!4 &1516100021
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599218127}
+  m_GameObject: {fileID: 1516100019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 456, y: -62.33499, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1401,7 +1380,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684440924}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

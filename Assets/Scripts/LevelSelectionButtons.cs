@@ -12,12 +12,12 @@ public class LevelSelectionButtons : MonoBehaviour {
 
 	}
 
-    // Upon pressing Easy, the easy scene is loaded.
-    public void PlayBeginner() {
+    // Upon pressing Easy, the Easy scene is loaded.
+    public void PlayEasy() {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
-    // Upon pressing Medium, the medium scene is loaded.
+    // Upon pressing Medium, the Medium scene is loaded.
     public void PlayMedium() {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 	}
