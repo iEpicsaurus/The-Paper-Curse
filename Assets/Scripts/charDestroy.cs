@@ -1,15 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 // This class deals with character behaviour on collision with other objects
 public class charDestroy : MonoBehaviour {
 
-	public void OnCollisionEnter2D(Collision2D collision) {
+	public AudioSource PaperTear;
+
+	public async void OnCollisionEnter2D(Collision2D collision) {
 
 		// If the collision object is an enemy, restart the level
 		if (collision.gameObject.tag == "Enemy") {
 
+			PaperTear.Play();
+			await Task.Delay(200); // Waits .02 seconds to play death sound.
 			Application.LoadLevel(Application.loadedLevel);
 
 		}
