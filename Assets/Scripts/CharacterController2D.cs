@@ -18,6 +18,7 @@ public class CharacterController2D : MonoBehaviour {
 	public float checkRadius;
 	public LayerMask whatIsGround;
 	public float jumpTime;
+	public AudioSource Jump;
 
     // Start is called before the first frame update
     private void Start() {
@@ -45,6 +46,7 @@ public class CharacterController2D : MonoBehaviour {
         // Jumps if currently on an object considered being ground and if Space is pressed
     	if(isGrounded == true && Input.GetKeyDown(KeyCode.Space)) {
 
+			Jump.Play();
     		currentlyJumping = true;
     		jumpTimeCounter = jumpTime;
 
