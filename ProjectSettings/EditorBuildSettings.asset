@@ -6,15 +6,81 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scripts/Scenes/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: bd22cf8a576abf949b8180eac9653cd8
   - enabled: 1
-    path: Assets/Scripts/Scenes/Story.unity
+    path: Assets/Scenes/LevelSelection.unity
+    guid: 6f21c1d630b292f44832a285dd8bb248
+  - enabled: 1
+    path: Assets/Scenes/(B) Story_Intro.unity
     guid: 34d86d42918ed1a449b14e3dc697259f
   - enabled: 1
-    path: Assets/Scripts/Scenes/Game.unity
+    path: Assets/Scenes/(M) Story_Intro.unity
+    guid: cc7fecb32b6008d44bfa66b06ff61cbe
+  - enabled: 1
+    path: Assets/Scenes/(H) Story_Intro.unity
+    guid: e3f29b95ea466554fa8bed0a7772dcb0
+  - enabled: 1
+    path: Assets/Scenes/BeginnerLevel1.unity
+    guid: 2517205a11b24d04cbebb5d0ce71a2fb
+  - enabled: 1
+    path: Assets/Scenes/Medium.Spring.unity
+    guid: 271882b31b7c7b04e86e56fdddae0ba7
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
     guid: 3225a3a9526683f40979b8b79359436d
   - enabled: 1
-    path: Assets/Scripts/Scenes/LevelComplete.unity
-    guid: 283befe528f43f74d894d8892536529b
+    path: Assets/Scenes/(B) Story_1.unity
+    guid: 4b3d6365c54720242be0aab95aa00f37
+  - enabled: 1
+    path: Assets/Scenes/(M) Story_1.unity
+    guid: 15242bf9ea2427d4b847c0b7a55a0746
+  - enabled: 1
+    path: Assets/Scenes/(H) Story_1.unity
+    guid: 3538152b2154438498f736fd86933154
+  - enabled: 1
+    path: Assets/Scenes/BeginnerLevel2.unity
+    guid: 0fe1c54329af839409e99971e61d3861
+  - enabled: 1
+    path: Assets/Scenes/MediumAutumn.unity
+    guid: 0c8d8936de6f9c94f9549cc42669fc09
+  - enabled: 1
+    path: Assets/Scenes/Hard_autumn.unity
+    guid: b4791440710d344dbb9520374c09182b
+  - enabled: 1
+    path: Assets/Scenes/(B) Story_2.unity
+    guid: b4c9f553e1746d844be025522f0dbe69
+  - enabled: 1
+    path: Assets/Scenes/(M) Story_2.unity
+    guid: bd1b65d3220f17d40ad364d3b8b6ac70
+  - enabled: 1
+    path: Assets/Scenes/(H) Story_2.unity
+    guid: e4a1e26aa5ed5774c8a07ec471d7bf40
+  - enabled: 1
+    path: Assets/Scenes/BeginnerLevel3.unity
+    guid: dc4a620ae40510841bf12c372d6c3610
+  - enabled: 1
+    path: Assets/Scenes/Medium Level 1.unity
+    guid: 29a73b5c3f5096849b968678836d10ab
+  - enabled: 1
+    path: Assets/Scenes/Hard_winter.unity
+    guid: d4f8bb92d476341cfbc0ac994ae81fdb
+  - enabled: 1
+    path: Assets/Scenes/(B) Story_End.unity
+    guid: 4a4a6000110d3d841ab254eefb8ccd13
+  - enabled: 1
+    path: Assets/Scenes/(M) Story_End.unity
+    guid: b53bfb54a64b6b74eb8f3eef31dd0b8b
+  - enabled: 1
+    path: Assets/Scenes/(H) Story_End.unity
+    guid: bad4cdb132c341e47afba8f538599982
+  - enabled: 1
+    path: Assets/Scenes/(B) Credits Scene.unity
+    guid: 175677a2324169f4681a6ab6a7c0d82d
+  - enabled: 1
+    path: Assets/Scenes/(M) Credits Scene.unity
+    guid: 1841005560bd0c742b6791156131933d
+  - enabled: 1
+    path: Assets/Scenes/(H) Credits Scene.unity
+    guid: 2d8f443f75a1d3f4a9943c2812dd4650
   m_configObjects: {}

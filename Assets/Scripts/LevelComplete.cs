@@ -11,7 +11,7 @@ public class LevelComplete : MonoBehaviour {
 
     	if(collision.gameObject.CompareTag("Player")) {
 
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
 
 		}
 
