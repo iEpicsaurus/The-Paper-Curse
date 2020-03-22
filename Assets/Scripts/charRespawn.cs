@@ -1,21 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 // This class deals with character behaviour on collision with other objects
 public class charRespawn : MonoBehaviour {
 
 	public Vector3 respawnPoint;
-	private GameObject[] coins;
+	private List<GameObject> coins = new List<GameObject>();	// A list of coins collected. Is reset on death/reaching a checkpoint
 	public AudioSource PaperTear;
 	public AudioSource CoinSound;
+	public Text coinsUI;
+	private int coinsCollected;
 
 	// Start is called before the first frame update
 	void Start()
 	{
 
-		// Get all game objects tagged with "Coin"
-		coins = GameObject.FindGameObjectsWithTag("Coin");
+		// Setting up coin UI
+		coinsCollected = 0;
+		coinsUI = GameObject.Find("CoinsUI").GetComponent<Text>();
+		coinsUI.text = "Coins: " + coinsCollected;
+
+		// Setting up respawn point
+		respawnPoint = transform.position;
 
 	}
 
@@ -27,25 +35,37 @@ public class charRespawn : MonoBehaviour {
 		{
 
 			PaperTear.Play();
-			// Re-activate each of the coins
+
+			// Re-activate coins and update counter
 			foreach (GameObject coin in coins)
             {
 				coin.SetActive(true);
-            }
+				coinsCollected--;
+			}
 
-			// Move the players position to respawn point
+			// Move the player to respawn point
 			transform.position = respawnPoint;
+
+			// Clear the list of coins
+			coins.Clear();
 
 		}
 
-		// If the collision object is a coin, deactivate the coin
+		// If the collision object is a coin, deactivate the coin and add it to the coin list
 		if (collision.gameObject.tag == "Coin")
 		{
 
 			CoinSound.Play();
+
+			// Add the coin to the coins list, deactivate the coin, and increment the number of coins collected
+			coins.Add(collision.gameObject);
 			collision.gameObject.SetActive(false);
+			coinsCollected++;
 
 		}
+		
+		// Update Coin indicator UI
+		coinsUI.text = "Coins: " + coinsCollected;
 
 	}
 
@@ -56,7 +76,9 @@ public class charRespawn : MonoBehaviour {
 		if (collision.gameObject.tag == "Checkpoint")
 		{
 
+			// Update the respawn point and clear the coin list
 			respawnPoint = collision.transform.position;
+			coins.Clear();
 
 		}
 
