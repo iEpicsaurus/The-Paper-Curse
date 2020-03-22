@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 public class charDestroy : MonoBehaviour {
 
 	public AudioSource PaperTear;
+	public AudioSource CoinSound;
 
 	public async void OnCollisionEnter2D(Collision2D collision) {
 
@@ -19,9 +20,10 @@ public class charDestroy : MonoBehaviour {
 
 		}
 
-		// If the collision object is a coin, remove the coin from the screen
+		// If the collision object is a coin, remove the coin from the screen and play the coin sound.
 		if (collision.gameObject.tag == "Coin") {
 
+			CoinSound.Play();
 			Destroy(collision.gameObject);
 
 		}		
