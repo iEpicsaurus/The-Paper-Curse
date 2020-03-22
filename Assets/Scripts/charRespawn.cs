@@ -7,6 +7,8 @@ public class charRespawn : MonoBehaviour {
 
 	public Vector3 respawnPoint;
 	private GameObject[] coins;
+	public AudioSource PaperTear;
+	public AudioSource CoinSound;
 
 	// Start is called before the first frame update
 	void Start()
@@ -24,6 +26,7 @@ public class charRespawn : MonoBehaviour {
 		if (collision.gameObject.tag == "Enemy")
 		{
 
+			PaperTear.Play();
 			// Re-activate each of the coins
 			foreach (GameObject coin in coins)
             {
@@ -39,6 +42,7 @@ public class charRespawn : MonoBehaviour {
 		if (collision.gameObject.tag == "Coin")
 		{
 
+			CoinSound.Play();
 			collision.gameObject.SetActive(false);
 
 		}
