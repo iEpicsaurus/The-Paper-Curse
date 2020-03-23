@@ -44,7 +44,10 @@ public class charRespawn : MonoBehaviour {
 			}
 
 			// Move the player to respawn point
+			GameObject vcam = GameObject.Find("CM vcam1");
+			vcam.SetActive(false);
 			transform.position = respawnPoint;
+			vcam.SetActive(true);
 
 			// Clear the list of coins
 			coins.Clear();
