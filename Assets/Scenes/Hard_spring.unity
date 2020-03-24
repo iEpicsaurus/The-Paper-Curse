@@ -2365,6 +2365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaperTear: {fileID: 1212006497}
   CoinSound: {fileID: 814160763}
+  coinsUI: {fileID: 0}
 --- !u!1 &608950764
 GameObject:
   m_ObjectHideFlags: 0

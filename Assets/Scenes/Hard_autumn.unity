@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_Follow: {fileID: 655233565}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 10
+    OrthographicSize: 5
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -2846,7 +2846,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3779,6 +3779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaperTear: {fileID: 1668481903}
   CoinSound: {fileID: 1522353383}
+  coinsUI: {fileID: 0}
 --- !u!61 &655233562
 BoxCollider2D:
   m_ObjectHideFlags: 0
