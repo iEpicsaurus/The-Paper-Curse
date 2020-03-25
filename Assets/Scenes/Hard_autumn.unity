@@ -3750,6 +3750,7 @@ GameObject:
   - component: {fileID: 655233562}
   - component: {fileID: 655233561}
   - component: {fileID: 655233566}
+  - component: {fileID: 655233567}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -3779,7 +3780,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655233560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3817,7 +3818,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &655233564
 MonoBehaviour:
@@ -3866,6 +3867,22 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655233560}
   m_Enabled: 1
+--- !u!58 &655233567
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655233560}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1192193, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3117156
 --- !u!1 &660424949
 GameObject:
   m_ObjectHideFlags: 0
