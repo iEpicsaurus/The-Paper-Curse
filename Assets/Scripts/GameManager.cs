@@ -4,11 +4,9 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {
 
-	//Used for singleton
 	public static GameManager GM;
 
-	//Create Keycodes that will be associated with each of our commands.
-	//These can be accessed by any other script in our game
+	// key codes for our character's movements
 	public KeyCode jump { get; set; }
 	public KeyCode left { get; set; }
 	public KeyCode right { get; set; }
@@ -27,12 +25,7 @@ public class GameManager : MonoBehaviour
 			Destroy(gameObject);
 		}
 
-		/*Assign each keycode when the game starts.
-		 * Loads data from PlayerPrefs so if a user quits the game, 
-		 * their bindings are loaded next time. Default values
-		 * are assigned to each Keycode via the second parameter
-		 * of the GetString() function
-		 */
+		// a basic buttons' control system before user changes any keys
 		jump = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("jumpKey", "Space"));
 		left = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
 		right = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
