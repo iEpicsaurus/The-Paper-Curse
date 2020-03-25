@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
+// CREDITS: This code was created with the help of a tutorial by Studica News https://www.youtube.com/watch?v=iSxifRKQKAA
+// This class deals with assigning keyboard keys to move the player to the new keys that a user can choose.
 public class MenuScript : MonoBehaviour
 {
 	Transform menuPanel;

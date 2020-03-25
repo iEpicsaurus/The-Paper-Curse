@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// CREDITS: This code was created with the help of a tutorial by Studica News https://www.youtube.com/watch?v=iSxifRKQKAA
+// This class deals with the keyboard keys to move the player.
+
 public class GameManager : MonoBehaviour
 {
 
