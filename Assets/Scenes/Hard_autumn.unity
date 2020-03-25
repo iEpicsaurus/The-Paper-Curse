@@ -2768,7 +2768,6 @@ GameObject:
   m_Component:
   - component: {fileID: 463529592}
   - component: {fileID: 463529591}
-  - component: {fileID: 463529590}
   - component: {fileID: 463529589}
   m_Layer: 0
   m_Name: Main Camera
@@ -2811,14 +2810,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!81 &463529590
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463529588}
-  m_Enabled: 1
 --- !u!20 &463529591
 Camera:
   m_ObjectHideFlags: 0
@@ -3758,6 +3749,7 @@ GameObject:
   - component: {fileID: 655233563}
   - component: {fileID: 655233562}
   - component: {fileID: 655233561}
+  - component: {fileID: 655233566}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -3866,6 +3858,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &655233566
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655233560}
+  m_Enabled: 1
 --- !u!1 &660424949
 GameObject:
   m_ObjectHideFlags: 0
@@ -9361,19 +9361,20 @@ AudioSource:
   m_GameObject: {fileID: 1281314250}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 280601c2ad5929b45900d5ef2558da06,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 6d12604a82edb2d40928eba57881df30, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 2.0572395
-  MaxDistance: 500
+  MinDistance: 1.15724
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -10370,19 +10371,20 @@ AudioSource:
   m_GameObject: {fileID: 1526827667}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 280601c2ad5929b45900d5ef2558da06,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 6d12604a82edb2d40928eba57881df30, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 2.1651323
-  MaxDistance: 500
+  MinDistance: 1.165132
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -10766,8 +10768,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652977129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.956707, y: -0.12824045, z: 0.029210033}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 47.556, y: -2.153, z: 0.029}
+  m_LocalScale: {x: 2.374, y: 2.374, z: 1.187}
   m_Children: []
   m_Father: {fileID: 1108992059}
   m_RootOrder: 1
