@@ -30,10 +30,15 @@ public class CharacterController2D : MonoBehaviour {
     // Deals with horizontal movement input
     private void FixedUpdate() {
 
-    	// Obtains the input (NB: returns -1 if left arrow key is pressed and 1 if right arrow key is pressed)
+        // Obtains the input (NB: returns -1 if left arrow key is pressed and 1 if right arrow key is pressed)
         // Moves character in the direction per the input
-        input = Input.GetAxisRaw("Horizontal");
+        if (Input.GetKey(GameManager.GM.left))
+            transform.position += Vector3.left /5;
+        if (Input.GetKey(GameManager.GM.right))
+            transform.position += Vector3.right /5;
+        //  input = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(input * speed, rb.velocity.y);
+
 
     }
 
@@ -44,7 +49,7 @@ public class CharacterController2D : MonoBehaviour {
     	isGrounded = Physics2D.OverlapCircle(footPosition.position, checkRadius, whatIsGround);
 
         // Jumps if currently on an object considered being ground and if Space is pressed
-    	if(isGrounded == true && Input.GetKeyDown(KeyCode.Space)) {
+    	if(isGrounded == true && Input.GetKeyDown(GameManager.GM.jump)) {
 
 			Jump.Play();
     		currentlyJumping = true;
@@ -55,7 +60,7 @@ public class CharacterController2D : MonoBehaviour {
     	}
 
         // Deals with when space is held for a longer jump; limits the length of the jump via jumpTimeCounter
-    	if(Input.GetKey(KeyCode.Space) && currentlyJumping == true) {
+    	if(Input.GetKey(GameManager.GM.jump) && currentlyJumping == true) {
 
     		if(jumpTimeCounter > 0) {
 

@@ -473,7 +473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130192402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.8, y: -0.13493022, z: 0.029210033}
+  m_LocalPosition: {x: -12.8, y: 0.85, z: 0.029210033}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2068353433}
@@ -4485,6 +4485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaperTear: {fileID: 74142983}
   CoinSound: {fileID: 1782847705}
+  coinsUI: {fileID: 0}
 --- !u!61 &359743863
 BoxCollider2D:
   m_ObjectHideFlags: 0
