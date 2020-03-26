@@ -808,7 +808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240066204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2880006, y: -1.0780001, z: -10}
+  m_LocalPosition: {x: -7.288, y: -1.0780001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1116835131}
@@ -6133,6 +6133,7 @@ GameObject:
   - component: {fileID: 797944275}
   - component: {fileID: 797944274}
   - component: {fileID: 797944279}
+  - component: {fileID: 797944280}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -6162,7 +6163,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797944273}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6200,7 +6201,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &797944277
 MonoBehaviour:
@@ -6249,6 +6250,22 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797944273}
   m_Enabled: 1
+--- !u!58 &797944280
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797944273}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1192193, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3117156
 --- !u!1 &810117132
 GameObject:
   m_ObjectHideFlags: 0
@@ -7730,7 +7747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360170635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2880006, y: -1.0780001, z: -10}
+  m_LocalPosition: {x: -7.288, y: -1.0780001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2117271617}
