@@ -3,8 +3,8 @@
 General Information
 --------------------
 
-**Version:** 0.1\
-**Date Released:** 26 FEB 2020\
+**Version:** 1.0\
+**Date Released:** 28 MAR 2020\
 **Platform:** Windows 8 & 10\
 **Project Lead:** Aleksandar Kostic\
 **Developers:** Aleksandar Kostic, Gerrit Mulder, James Mitsumasu, Sofya Pryadko
@@ -18,7 +18,7 @@ Prerequisites
 **Operating System:** Windows 8 (Windows 10 is recommended)\
 **Processor:** Dual Core, 2.4 GHz\
 **Memory:** 2 GB RAM\
-**Storage:** 500 MB available space
+**Storage:** 250 MB available space
 
 Synopsis
 --------------------
@@ -45,10 +45,14 @@ Complete the level by reaching the flower.
 Current Game Features
 --------------------
 
-- Interactive Main Menu and Level Complete scenes
-- Story elements revealed in one of first scenes
-- First level design completed: character and enemy movement functional, collision triggers functional, respawn functional
-- Audio throughout the game
+- Completed main menu and pause menu: including the ability to change options before the game and during play
+- UI with a coin indicator has been completed: fully functional with respawns and checkpoints
+- Completed story with elements of a puzzle
+- Three level difficulties available: easiest, easy, and harder than easy
+- Checkpoints for the easiest difficulty - allows more players to enjoy the game
+- Coins throughout the level to offer an extra level of difficulty
+- Level design completed: character and enemy movement functional, collision triggers functional, respawn functional
+- Audio (background music and sound effects) throughout the game
 
 Bug Reports
 --------------------
